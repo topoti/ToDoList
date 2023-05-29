@@ -1,6 +1,11 @@
 const inputtdl = document.querySelector('.textarea')
 const buttontdl = document.querySelector('.buttoninput')
 const listtdl = document.querySelector('.todolist')
+const activeButton = document.getElementById("activeButton");
+const allButton = document.getElementById("allButton");
+const doneButton = document.getElementById("doneButton");
+const clearButton = document.getElementById("clearButton");
+const number = document.getElementById("number");
 
 function clickButton(e) {
     e.preventDefault()

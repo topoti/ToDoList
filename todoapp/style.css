@@ -73,6 +73,22 @@ body {
     color: white;
 }
 
+.todo-list{
+    justify-content: center;
+    background-position: center;
+}
+#list {
+    background: grey;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    background-size: auto;
+    text-align: center;
+    color: aliceblue;
+  }
+  ul {
+    list-style-type: none;
+  }
 /* js */
 .todolist {
     margin-top: 20px;
