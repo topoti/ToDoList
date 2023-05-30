@@ -70,8 +70,14 @@ function currentState() {
 }
 
 function showItem() {
-  if (item > 1) number.innerHTML = `${item} items left`;
-  else if (item == 1) number.innerHTML = `${item} item left`;
+  if (item > 1) 
+  {
+    number.innerHTML = `${item} items left`;
+    }
+  else if (item == 1) 
+  {
+    number.innerHTML = `${item} item left`;
+  }
   else number.innerHTML = "";
 }
 
