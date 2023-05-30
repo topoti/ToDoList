@@ -86,6 +86,7 @@ body {
     text-align: center;
     color: aliceblue;
   }
+  
   ul {
     list-style-type: none;
   }
@@ -145,4 +146,5 @@ body {
 
 button, .check-button, .trash-button {
     cursor: pointer;
+    color: #37b3cc;
 }

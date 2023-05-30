@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="script.js" defer></script>
     <title>Document</title>
-</head>
-<body>
-    <h3 style="color:blue">This is my Personal Website. All the data will be updated soon. Here Todo app for demo purpose.</h1>
-        <section class="todoapp">
-          <header class="header">
-            <h1>todos</h1>
-            <input class="new-todo" type="text" placeholder="What needs to be done?" id="textItem">
-            <i class="fa-light fa-floppy-disk" onclick="saveTask()" aria-hidden="true"></i>
-          </header>
-          <section class="main">
-            <input class="toggle-all" type="checkbox">
-            <label for="toggle-all">Mark all as complete</label>
-            <ul class="todo-list"></ul>
-          </section>
-          <footer class="footer"></footer>
-        </section>
-       
-        <!-- Custom JS -->
-        <script src="script.js"></script>
-      
-</body>
+  </head>
+  <body>
+
+    <div class="container-title">
+      <h1>To Do List</h1>
+  </div>
+
+        <div class="input-container" id="addTask">
+          <input id="inputField" type="text" class="data-input" placeholder="What needs to be done?"/>
+          <button class="button" id="addButton">Add Item</button>
+          <div>
+            <ul id="list"></ul>
+          </div>
+          <button class="button" id="allButton">All</button>
+          <button class="button" id="activeButton">Active</button>
+          <button class="button" id="completeButton">Completed</button>
+          <!-- <button class="button" id="clearButton">Clear Completed</button> -->
+          <a href="#" class="special-button" id="clearButton">Clear Completed</a>
+          <p id="number"></p>
+  
+        </body>
 </html>
